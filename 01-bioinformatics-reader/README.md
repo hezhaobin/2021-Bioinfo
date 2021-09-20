@@ -1,1 +1,1 @@
-Supplementary reading materials organized by weeks.
+Supplementary reading materials organized by weeks. Note that subsequent reading materials are being uploaded onto the UIowa OneDrive. Anyone interested in the reading list is welcome to email the instructors (Bin He, bin-he@uiowa.edu and Jan Fassler).
