@@ -7,18 +7,18 @@ date: 2019-10-12
 # Goal
 Given the human BGLT3 (beta-globin locus transcript 3, a pseudogene in the beta-globin locus) DNA sequence, use `blastn` to identify the orthologous sequences from other primate species (see table below)
 
-| Species name | Common name |
-|--------------|-------------|
-| _Homo sapiens_ | human |
-| _Gorilla gorilla_ | gorilla |
-| _Pan troglodytes_ | chimpanzee |
-| _Pan paniscus_ | pygmy chimpanzee |
-| _Pongo abelii_ | Sumatran orangutan |
-| _Pongo pygmaeus_ | Bornean orangutan |
+| Species name | Common name | taxid |
+|--------------|-------------|-------|
+| _Homo sapiens_ | human | 9606 |
+| _Gorilla gorilla_ | gorilla | 9595 |
+| _Pan troglodytes_ | chimpanzee | 9598 |
+| _Pan paniscus_ | pygmy chimpanzee | 9597 |
+| _Pongo abelii_ | Sumatran orangutan | 9601 |
+| _Hylobates moloch_ | Silver gibbon | 61853 ｜
 
 # Instructions
-_you may skip this if you are already familiar with blast_
 
+0. go to blast website (which program should you use?)
 1. put the human sequence (attached at the bottom) in the input sequence box.
 2. you can try "nr" or other databases (refseq?) to search against.
 3. limit the taxonomy to primates
