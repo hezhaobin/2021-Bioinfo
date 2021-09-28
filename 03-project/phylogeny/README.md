@@ -1,8 +1,8 @@
 # Overview
 Replicate the phylogenetic analyses in Henkel, Christiaan V., Erik Burgerhout, Daniëlle L. de Wijze, Ron P. Dirks, Yuki Minegishi, Hans J. Jansen, Herman P. Spaink, et al. “Primitive Duplicate Hox Clusters in the European Eel’s Genome.” PLOS ONE 7, no. 2 (February 24, 2012): e32231. https://doi.org/10.1371/journal.pone.0032231.
 
-![The Hox gene clusters](https://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0032231.g002)
-![unrooted ML tree for Hox genes](https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0032231.g003)
+![The Hox gene clusters](https://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0032231.g002){:height="40%" width="40%}
+![unrooted ML tree for Hox genes](https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0032231.g003){:height="40%" width="40%}
 
 # Analysis notes
 ## [09-28] Species tree
