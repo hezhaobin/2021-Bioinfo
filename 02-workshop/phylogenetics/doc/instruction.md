@@ -18,14 +18,19 @@ Given the human BGLT3 (beta-globin locus transcript 3, a pseudogene in the beta-
 
 # Instructions
 
-0. go to blast website (which program should you use?)
+1. go to blast website (which program should you use based on the query and subject sequences types?)
 1. put the human sequence (attached at the bottom) in the input sequence box.
 2. you can try "nr" or other databases (refseq?) to search against.
-3. limit the taxonomy to primates
-4. in the result window, use the taxonomy tab, description and graphic summary to evaluate the results. do you see the species listed above? do you get near 100% coverage for the query? what are the sequence identities? if there are multiple hits in any one species, how to choose from them?
-5. finally, select the sequences you decide to download in the "Description" tab, then go to "Alignment" tab and use "Download"->"FASTA (aligned sequences)" to save the alignment as fasta files.
-6. open the fasta file in your favorite alignment editor (text editor, vim, emacs, Jalview, MEGA, seaview, etc.) and inspect what you got. can you make sense of the sequences you have? if you can, change the names to just the species short name (e.g. pygmy chimpanzee), and save that file.
-7. upload the aignment file to ICON/quiz of the week. it's ok if you only get to the download stage. upload whatever you have.
+3. limit the taxonomy to primates (taxid: 9443) or add the above species one by one.
+5. for each sequences you decide to download in the "Description" tab, Ctrl- (Windows/Linux) or Cmd-click (Mac) on its accession number to be taken to the nucleotide sequence page.
+6. follow the procedures outlined in the "Phylogenetic trees made easy" book, Chapter 2 / Download sequences section to download all the sequences and put them into a single fasta file.
+  - make sure you copy and paste the sequences into a plain text editor, like jEdit or Sublime Text. don't use the OS provided rich text editors.
+7. install [MEGA software](https://www.megasoftware.net/)
+8. open the fasta file in MEGA (choose Align in the pop-up window).
+9. align the sequences using MUSCLE (you can also perform the alignment using online apps or in Jalview, but the goal here is to get you familiar with MEGA).
+10. use "Data/export alignment/FASTA format" to save the aligned sequences as a separate file in FASTA format.
+11. take a screenshot of the alignment window. you should include all the sequences and the beginning 80 columns.
+12. if for some reason you couldn't get MEGA working, you can also do steps 7-11 in Jalview.
 
 # FASTA sequence for human BGLT3
 ```fasta
