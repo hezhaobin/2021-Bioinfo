@@ -24,7 +24,7 @@ Given the human BGLT3 (beta-globin locus transcript 3, a pseudogene in the beta-
 3. limit the taxonomy to primates (taxid: 9443) or add the above species one by one.
 5. for each sequences you decide to download in the "Description" tab, Ctrl- (Windows/Linux) or Cmd-click (Mac) on its accession number to be taken to the nucleotide sequence page.
 6. follow the procedures outlined in the "Phylogenetic trees made easy" book, Chapter 2 / Download sequences section to download all the sequences and put them into a single fasta file.
-  - make sure you copy and paste the sequences into a plain text editor, like jEdit or Sublime Text. don't use the OS provided rich text editors.
+    - make sure you copy and paste the sequences into a plain text editor, like jEdit or Sublime Text. don't use the OS provided rich text editors.
 7. install [MEGA software](https://www.megasoftware.net/)
 8. open the fasta file in MEGA (choose Align in the pop-up window).
 9. align the sequences using MUSCLE (you can also perform the alignment using online apps or in Jalview, but the goal here is to get you familiar with MEGA).
