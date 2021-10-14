@@ -13,6 +13,18 @@ I'd like to obtain a species tree for the species used in the figure above. To d
 1. Go to [batch entrez](https://www.ncbi.nlm.nih.gov/sites/batchentrez) website, choose "Protein" in the database dropdown menu and select the file we just created, click "Retrieve".
     - 42 sequences can be identified and retrieved. AY744145 turns out to be a nucleotide sequence. I replaced it with the ID of the corresponding protein entry AAW82627.
 1. In the next page, locate the "send to" button on the top. Choose "File" -> "FASTA" and "Create file". Save the downloaded file and open it in any suitable editor (jEdit, Jalview, MEGA etc.)
+1. Manually edit the names of the sequences in the form of "Danio_B9a"
 ### _A. anguilla_ sequences
-Following the same protocol as above, except choosing "Nucleotide" in the database dropdown and in the "Send to" menu, choose "Coding sequences" and "FASTA Protein" in the format.
+1. Following the same protocol as above, except choosing "Nucleotide" in the database dropdown and in the "Send to" menu, choose "Coding sequences" and "FASTA Protein" in the format.
+1. Edit the downloaded fasta files by renaming each sequence in the form of "Anguilla_A3a".
+1. Three entries are "partial" sequences, affecting A3a and A13a. Replace them with the predicted protein sequences by blastp. Manually add the two resulting full length protein sequences to the fasta file (save as a new file) and delete the partial sequences.
+### Assemble relevant sequences into a single file
+- Note that the _Anguilla_ Hox sequence file contains more than the Hox9 homologs. For Figure 3, we only need the Hox9 ones. Therefore we need to identify all of the relevant sequences and combine them with the non-anguilla sequences for alignment. I did this in Jalview and created the `data/combined-sequences-fig3.fasta` file.
 
+## [10-10] Align and tree reconstruction
+- Alignment was done through the Jalview interface. Three programs were used with their default settings: ProbCons, ClustalO and MUSCLE. The resulting alignment files were saved.
+- The ClustalO alignment was loaded in MEGA and a MP and an NJ tree were constructed, with 500 bootstraps for each.
+- The unaligned sequence file was uploaded onto <https://ngphylogeny.fr/> and an ML tree was reconstructed using the PhyML program with MAFFT and BMGE for cleaning up.
+- To visualize the tree, we will use a different software that is more intuitive and useful than the MEGA tree viewer. Go to <https://github.com/rambaut/figtree/> and download the compiled binary for your OS
+- In MEGA, save the tree in newick format and then open that file in FigTree. Learn how to change the way the tree looks and color it in similar ways as Figure 3.
+- Now we can start to make sense of the tree, or can we???
